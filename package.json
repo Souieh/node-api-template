@@ -1,0 +1,50 @@
+{
+  "name": "visitors-mgr-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node  src/app.js",
+    "trace": "node --trace-deprecation --trace-warnings src/app.js",
+    "dev": "nodemon  src/app.js",
+    "production": "NODE_ENV=production node src/app.js"
+  },
+  "keywords": [],
+  "author": "Aissa Souieh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "cli-color": "^2.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "express-useragent": "^1.0.15",
+    "geolocation-utils": "^1.2.5",
+    "ipinfo": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "punycode": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@": "src",
+    "@controllers": "src/controllers",
+    "@models": "src/models",
+    "@config": "src/config",
+    "@middlewares": "src/middlewares",
+    "@utils": "src/utils"
+  }
+}
