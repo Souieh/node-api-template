@@ -1,7 +1,7 @@
 {
-  "name": "visitors-mgr-api",
+  "name": "node-api-template",
   "version": "1.0.0",
-  "description": "",
+  "description": " Restfull api template based on expressjs, mongodb and passport ",
   "main": "src/app.js",
   "type": "commonjs",
   "scripts": {
@@ -10,8 +10,17 @@
     "dev": "nodemon  src/app.js",
     "production": "NODE_ENV=production node src/app.js"
   },
-  "keywords": [],
-  "author": "Aissa Souieh",
+  "keywords": [
+    "expressjs",
+    "api",
+    "restfull",
+    "passport",
+    "mongodb"
+  ],
+  "author": {
+    "name": "Aissa Souieh",
+    "url": "https://github.com/Souieh"
+  },
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
